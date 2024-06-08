@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<!-- font awesome icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<title>Coffee Shop</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="logo-side">
+					<img src="./assets/img/logo.jfif" alt="logo" />
+				</ul>
+				<ul class="wallet-container">
+					<p class="wallet-address"></p>
+				</ul>
+				<ul class="nav-items">
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fas fa-bars"></i></button>
+						<div class="dropdown-content">
+							<a href="./index.html">Home</a>
+							<a href="#">My Orders</a>
+							<a href="#">Help</a>
+							<a href="#"><button id="connect-wallet">Connect wallet</button></a>
+						</div>
+					</div>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<!-- customer details -->
+			<section class="details">
+				<div class="customer-details">
+					<span class="detail">Address: <p class="customer-wallet"></p></span>
+					<span class="detail">Balance: <p class="customer-balance"></p></span>
+				</div>
+			</section>
+
+			<!-- orders -->
+			<section class="orders">
+				<h1>My Orders</h1>
+				<div class="order-items"> </div>
+			</section>
+		</main>
+
+		<!-- footer -->
+		<footer>
+			<div class="footer-content">
+				<div class="social-icons">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-instagram"></i>
+				</div>
+
+				<p>&copy; 2021 Coffee Shop</p>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+		<script type="module" src="./assets/js/order.js"></script>
+	</body>
+</html>

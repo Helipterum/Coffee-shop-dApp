@@ -1,0 +1,20 @@
+{
+  "name": "coffee-shop-dapp",
+  "version": "1.0.0",
+  "description": "Coffee shop dApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "dApp"
+  ],
+  "author": "Manelisi Mpotulo",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "web3": "^4.9.0"
+  }
+}
